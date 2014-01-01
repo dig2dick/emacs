@@ -447,7 +447,7 @@ auto-mode-alist))
 ;;(global-set-key [end]  'end-of-buffer)
 
 ;;切换buffer的设置
-(global-set-key [(control o)] 'other-window)
+;;(global-set-key [(control o)] 'other-window)
 (global-set-key [(control tab)] 'tabbar-forward)
 
 
@@ -467,7 +467,7 @@ auto-mode-alist))
 
 
 ;;(global-set-key [f9] 'delete-window);F9 关闭d当前窗口
-;;(global-set-key [f8] 'other-window);F8窗口间跳转
+(global-set-key [f8] 'other-window);F8窗口间跳转
 ;;(global-set-key [(f2)] 'ansi-term);F2 切换到shell模式
 ;;(global-set-key [f3] 'split-window-vertically);F3分割窗口
 ;;(global-set-key [f12] 'my-fullscreen);F12 全屏
@@ -1043,3 +1043,4 @@ auto-mode-alist))
 (autoload 'python-mode "python-mode" "Python editing mode." t)
 (load-theme 'tango t)
 (global-hl-line-mode 1)
+(global-set-key [(control o)] 'open-line)
