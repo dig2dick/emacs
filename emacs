@@ -80,6 +80,8 @@
 ;;设置emacs启动窗口大小
 ;;(setq default-frame-alist 
 ;;'((height . 32) (width , 50) (menu-bar-lines . 20) (tool-bar-lines . 0))) 
+(setq default-frame-alist
+'((height . 44) (width , 39) (menu-bar-lines . 20) (tool-bar-lines . 0)))
 
 ;;Font
 ;;(set-default-font "10x20")
