@@ -1046,3 +1046,10 @@ auto-mode-alist))
 (load-theme 'tango t)
 (global-hl-line-mode 1)
 (global-set-key [(control o)] 'open-line)
+;;auto format function
+(defun indent-whole()
+  (interactive)
+  (indent-region (point-min)(point-max))
+  (message "format successfully"))
+;; bind to f7
+(global-set-key [f7] 'indent-whole)
